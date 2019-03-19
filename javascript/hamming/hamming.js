@@ -13,8 +13,8 @@ export const compute = (strand1, strand2) => {
 			}
 		} 
 	} else {
-		throw 'left and right strands must be of equal length'
+		throw 'left and right strands must be of equal length';
 	}
 
-	return hammingDistance
+	return hammingDistance;
 }
